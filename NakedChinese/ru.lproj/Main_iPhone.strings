@@ -1,0 +1,174 @@
+
+/* Class = "IBUINavigationItem"; title = "NAKED CHINESE"; ObjectID = "1Wt-xn-bYu"; */
+"1Wt-xn-bYu.title" = "NAKED CHINESE";
+
+/* Class = "IBUILabel"; text = "Дополнительная информация"; ObjectID = "1zg-9C-dnd"; */
+"1zg-9C-dnd.text" = "Дополнительная информация";
+
+/* Class = "IBUILabel"; text = "О программе"; ObjectID = "2FH-fE-NWO"; */
+"2FH-fE-NWO.text" = "О программе";
+
+/* Class = "IBUILabel"; text = "12"; ObjectID = "4AF-RW-UQB"; */
+"4AF-RW-UQB.text" = "12";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "5Me-MU-RPl"; */
+"5Me-MU-RPl.text" = "Label";
+
+/* Class = "IBUINavigationItem"; title = "ТЕСТ"; ObjectID = "6Lk-RI-4Ty"; */
+"6Lk-RI-4Ty.title" = "ТЕСТ";
+
+/* Class = "IBUIButton"; normalTitle = "ПРОЙТИ ТЕСТ ЕЩЕ РАЗ"; ObjectID = "6fa-wR-egr"; */
+"6fa-wR-egr.normalTitle" = "ПРОЙТИ ТЕСТ ЕЩЕ РАЗ";
+
+/* Class = "IBUILabel"; text = "nǐ hǎo"; ObjectID = "6o2-UQ-iCu"; */
+"6o2-UQ-iCu.text" = "nǐ hǎo";
+
+/* Class = "IBUILabel"; text = "nǐ hǎo"; ObjectID = "8js-Zx-xHM"; */
+"8js-Zx-xHM.text" = "nǐ hǎo";
+
+/* Class = "IBUILabel"; text = "Сленг"; ObjectID = "9l6-jA-s1J"; */
+"9l6-jA-s1J.text" = "Сленг";
+
+/* Class = "IBUIButton"; normalTitle = "НАЗАД"; ObjectID = "AjJ-2y-buK"; */
+"AjJ-2y-buK.normalTitle" = "НАЗАД";
+
+/* Class = "IBUINavigationItem"; title = "РАССЫЛКА"; ObjectID = "AxZ-9m-NvT"; */
+"AxZ-9m-NvT.title" = "РАССЫЛКА";
+
+/* Class = "IBUITabBarItem"; title = "Меню"; ObjectID = "BLA-dr-a7m"; */
+"BLA-dr-a7m.title" = "Меню";
+
+/* Class = "IBUILabel"; text = "nǐ hǎo"; ObjectID = "Ba5-5U-fhB"; */
+"Ba5-5U-fhB.text" = "nǐ hǎo";
+
+/* Class = "IBUITabBarItem"; title = "Избранное"; ObjectID = "BnO-OJ-hq9"; */
+"BnO-OJ-hq9.title" = "Избранное";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "CHi-OO-Z9a"; */
+"CHi-OO-Z9a.text" = "Label";
+
+/* Class = "IBUILabel"; text = "你好"; ObjectID = "Fnw-1s-pvL"; */
+"Fnw-1s-pvL.text" = "你好";
+
+/* Class = "IBUILabel"; text = "Привет! Как дела?"; ObjectID = "Fsw-pa-6rs"; */
+"Fsw-pa-6rs.text" = "Привет! Как дела?";
+
+/* Class = "IBUILabel"; text = "1.嘿，伙計。你今天好嗎？"; ObjectID = "GdR-Bn-TH2"; */
+"GdR-Bn-TH2.text" = "1.嘿，伙計。你今天好嗎？";
+
+/* Class = "IBUILabel"; text = "您好！"; ObjectID = "HZ7-e0-cFg"; */
+"HZ7-e0-cFg.text" = "您好！";
+
+/* Class = "IBUINavigationItem"; title = "Анекдоты"; ObjectID = "Hx3-2N-tVV"; */
+"Hx3-2N-tVV.title" = "Анекдоты";
+
+/* Class = "IBUIButton"; normalTitle = "Пришли свой анекдот"; ObjectID = "Ibq-xc-CdZ"; */
+"Ibq-xc-CdZ.normalTitle" = "Пришли свой анекдот";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "JWj-fy-eZa"; */
+"JWj-fy-eZa.text" = "Label";
+
+/* Class = "IBUILabel"; text = "ОТЛИЧНО"; ObjectID = "NnF-J3-jkv"; */
+"NnF-J3-jkv.text" = "ОТЛИЧНО";
+
+/* Class = "IBUILabel"; text = "您好！"; ObjectID = "O8o-QI-MqA"; */
+"O8o-QI-MqA.text" = "您好！";
+
+/* Class = "IBUITabBarItem"; title = "Тест"; ObjectID = "PKl-rQ-N9J"; */
+"PKl-rQ-N9J.title" = "Тест";
+
+/* Class = "IBUILabel"; text = "nǐ hǎo"; ObjectID = "QY4-XZ-Kym"; */
+"QY4-XZ-Kym.text" = "nǐ hǎo";
+
+/* Class = "IBUINavigationItem"; title = "{PACK LOGO}"; ObjectID = "RNT-LJ-ZBG"; */
+"RNT-LJ-ZBG.title" = "{PACK LOGO}";
+
+/* Class = "IBUILabel"; text = "12"; ObjectID = "Ugg-aA-Rvk"; */
+"Ugg-aA-Rvk.text" = "12";
+
+/* Class = "IBUILabel"; text = "Daniel Korn"; ObjectID = "Up4-wB-XTW"; */
+"Up4-wB-XTW.text" = "Корнилов Даниил";
+
+/* Class = "IBUIButton"; normalTitle = "РУССКО-КИТАЙСКИЙ"; ObjectID = "YQO-bk-heJ"; */
+"YQO-bk-heJ.normalTitle" = "РУССКО-КИТАЙСКИЙ";
+
+/* Class = "IBUIButton"; normalTitle = "КИТАЙСКО-РУССКИЙ"; ObjectID = "ZcB-MQ-jb6"; */
+"ZcB-MQ-jb6.normalTitle" = "КИТАЙСКО-РУССКИЙ";
+
+/* Class = "IBUILabel"; text = "Běn bìng shì méiyǒu wéixiǎn, cái."; ObjectID = "aGx-d6-u40"; */
+"aGx-d6-u40.text" = "Běn bìng shì méiyǒu wéixiǎn, cái.";
+
+/* Class = "IBUILabel"; text = "Дополнительная информация"; ObjectID = "acg-50-8fA"; */
+"acg-50-8fA.text" = "Дополнительная информация";
+
+/* Class = "IBUILabel"; text = "привет!"; ObjectID = "aho-g5-xKb"; */
+"aho-g5-xKb.text" = "привет!";
+
+/* Class = "IBUINavigationItem"; title = "ТЕСТ"; ObjectID = "byU-VO-25N"; */
+"byU-VO-25N.title" = "ТЕСТ";
+
+/* Class = "IBUILabel"; text = "Ругательства"; ObjectID = "csC-QM-wN5"; */
+"csC-QM-wN5.text" = "Ругательства";
+
+/* Class = "IBUITabBarItem"; title = "Анекдоты"; ObjectID = "dap-OT-RsU"; */
+"dap-OT-RsU.title" = "Анекдоты";
+
+/* Class = "IBUINavigationItem"; title = "Тест"; ObjectID = "fi9-48-byV"; */
+"fi9-48-byV.title" = "Тест";
+
+/* Class = "IBUINavigationItem"; title = "NAKED CHINESE"; ObjectID = "fxC-MV-Qs3"; */
+"fxC-MV-Qs3.title" = "NAKED CHINESE";
+
+/* Class = "IBUILabel"; text = "привет!"; ObjectID = "g02-zg-WnT"; */
+"g02-zg-WnT.text" = "привет!";
+
+/* Class = "IBUILabel"; text = "Секс"; ObjectID = "g4p-Lk-rld"; */
+"g4p-Lk-rld.text" = "Секс";
+
+/* Class = "IBUINavigationItem"; title = "НАШИ ПАРТНЕРЫ"; ObjectID = "g5L-Fz-jZb"; */
+"g5L-Fz-jZb.title" = "НАШИ ПАРТНЕРЫ";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "hbZ-NY-tFU"; */
+"hbZ-NY-tFU.text" = "Label";
+
+/* Class = "IBUILabel"; text = "Болезнь не опасна, успокойся."; ObjectID = "hhO-HP-RcV"; */
+"hhO-HP-RcV.text" = "Болезнь не опасна, успокойся.";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "l7F-Uc-t1C"; */
+"l7F-Uc-t1C.text" = "Label";
+
+/* Class = "IBUILabel"; text = "你好"; ObjectID = "lk6-w6-tC2"; */
+"lk6-w6-tC2.text" = "你好";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "mPp-1H-VP2"; */
+"mPp-1H-VP2.normalTitle" = "Button";
+
+/* Class = "IBUINavigationItem"; title = "NAKED CHINESE"; ObjectID = "nyG-Z1-2f5"; */
+"nyG-Z1-2f5.title" = "NAKED CHINESE";
+
+/* Class = "IBUITabBarItem"; title = "О программе"; ObjectID = "sf5-tM-21I"; */
+"sf5-tM-21I.title" = "О программе";
+
+/* Class = "IBUIButton"; normalTitle = "ДАЛЕЕ"; ObjectID = "u5g-a2-2mJ"; */
+"u5g-a2-2mJ.normalTitle" = "ДАЛЕЕ";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "uLd-b0-OqQ"; */
+"uLd-b0-OqQ.text" = "Label";
+
+/* Class = "IBUILabel"; text = "1/20"; ObjectID = "vV1-4O-P3C"; */
+"vV1-4O-P3C.text" = "1/20";
+
+/* Class = "IBUISegmentedControl"; va1-54-wQJ.segmentTitles[0] = "Секс"; ObjectID = "va1-54-wQJ"; */
+"va1-54-wQJ.segmentTitles[0]" = "Секс";
+
+/* Class = "IBUISegmentedControl"; va1-54-wQJ.segmentTitles[1] = "Ругательства"; ObjectID = "va1-54-wQJ"; */
+"va1-54-wQJ.segmentTitles[1]" = "Ругательства";
+
+/* Class = "IBUISegmentedControl"; va1-54-wQJ.segmentTitles[2] = "Сленг"; ObjectID = "va1-54-wQJ"; */
+"va1-54-wQJ.segmentTitles[2]" = "Сленг";
+
+/* Class = "IBUINavigationItem"; title = "АВТОР"; ObjectID = "wAe-Dy-L7a"; */
+"wAe-Dy-L7a.title" = "АВТОР";
+
+/* Class = "IBUILabel"; text = "Выберите желаемое для теста"; ObjectID = "yW0-Mt-xHW"; */
+"yW0-Mt-xHW.text" = "Выберите желаемое для теста";

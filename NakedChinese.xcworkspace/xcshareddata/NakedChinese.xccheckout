@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>746BA3D3-0C8D-4F54-B9A1-76D03E5C2967</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>58BCD6A690F27A7C3F4855BA2EF6A9D524777C8E</key>
+		<string>https://github.com/tiana890/NakedChinese.git</string>
+	</dict>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>58BCD6A690F27A7C3F4855BA2EF6A9D524777C8E</key>
+		<string>NakedChinese/</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/tiana890/NakedChinese.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>58BCD6A690F27A7C3F4855BA2EF6A9D524777C8E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>58BCD6A690F27A7C3F4855BA2EF6A9D524777C8E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>NakedChinese</string>
+		</dict>
+	</array>
+</dict>
+</plist>

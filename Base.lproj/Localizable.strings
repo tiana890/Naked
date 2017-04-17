@@ -1,0 +1,109 @@
+/* 
+  Localizable.strings
+  NakedChinese
+
+  Created by IMAC  on 17.11.14.
+  Copyright (c) 2014 Dmitriy Karachentsov. All rights reserved.
+*/
+"lang"="en";
+
+//greeting
+"greet_1_up" = "IT DOESN'T MATTER HOW LONG";
+"greet_1_bottom" = "YOU'VE BEEN STUDYING CHINESE";
+"greet_2_up" = "BUT AFTER ARRIVING IN CHINA";
+"greet_2_bottom" = "YOU'LL SOON FACE REAL CHINESE";
+"greet_3_up" = "WE WILL ARM YOU WITH\nTHE MOST POWERFUL WEAPON -";
+"greet_3_bottom" = "KNOWLEDGE!";
+"greet_4_up" = "YOUR TEACHERS KEEP IT SECRET";
+"greet_4_bottom" = "YOUR BOOKS SAY NOTHING ABOUT IT";
+"greet_5_up" = "WE WILL UNDRESS\n THE CHINESE LANGUAGE";
+"greet_5_bottom" = "FOR YOU!";
+"greet_text" = "ATTENTION\nThe creators of NAKED CHINESE never intended to offend anyone's dignity. We don't support the use of foul language. We love and respect both China and the Chinese language. The main purpose of this application is not to teach people how to insult each other but rather let them understand when they've been insulted. We wish to protect you from conflict situations. We encourage everyone to employ decent language and endeavor to resolve any problems peacefully.";
+
+//NCGreetingViewController
+"next" = "NEXT";
+
+//NCMenuViewController
+"about" = "About";
+"creators" = "Author";
+"partners" = "Our partners";
+"restore" = "Restore purchases";
+"fav" = "Favourites";
+"test" = "Test";
+"rate" = "Rate application";
+"feedback" = "Feedback";
+"site" = "Visit web site";
+"subscribe" = "Subscribe";
+"jokes" = "Jokes";
+
+//NCTestViewController
+"empty_test_alert" = "Nothing is chosen!";
+
+"ALERT_TEST_TITLE" = "";
+"ALERT_TEST_MESSAGE" = "Are you sure you want to quit the test?";
+"ALERT_TEST_CANCEL" = "Cancel";
+"ALERT_TEST_ABORT" = "Quit";
+
+//1-25% УЖАСНО
+"test_result_verybad_1" = "You still have much to learn, my young padawan";
+"test_result_verybad_2" = "Victory is not as important as it seems, is it?";
+"test_result_verybad_3" = "Honestly? I just think you closed your eyes";
+"test_result_verybad_4" = "When I fail exams I always blame my fat fingers";
+"test_result_verybad_5" = "The Great Wall also wasn’t built in one day";
+
+//26-44% ПЛОХО
+"test_result_bad_1" = "Oh, it seems you didn’t give it a try at all";
+"test_result_bad_2" = "Try again. Pleeeeeeease...";
+"test_result_bad_3" = "I believe you can do it better";
+"test_result_bad_4" = "Not bad, haha...kidding you!";
+
+//45-59% УДОВЛЕТВОРИТЕЛЬНО
+"test_result_suit_1" = "It seems like you have learnt something";
+"test_result_suit_2" = "Do. Or do not. There’s no try";
+"test_result_suit_3" = "It seems sleeping wasn't everything you did during my classes";
+
+//60-74% ХОРОШО
+"test_result_good_1" = "You are good. I’m afraid one day you’re gonna take my place.";
+"test_result_good_2" = "Just a little bit more and nobody will believe you’re not a real Chinese";
+
+//75-99% ОТЛИЧНО
+"test_result_excellent_1" = "Seems like I underestimated you";
+"test_result_excellent_2" = "Hey there, yes you, are you Chinese?";
+"test_result_excellent_3" = "Now you are as good as me!";
+
+//100% ИДЕАЛЬНО
+"test_result_ideal_1" = "You are genious!";
+"test_result_ideal_2" = "Do the Chinese already worship you?";
+"test_result_ideal_3" = "Welcome to the club of the winners";
+"test_result_ideal_4" = "We are the champions!";
+"test_result_ideal_5" = "Do you feel it? It is a smell of victory.";
+"test_result_ideal_6" = "Your Chinese is like the Great Wall... undestroyable";
+
+//Раздел избранное
+"add_to_fav_alert" = "Added to favorites";
+"remove_from_fav_alert" = "Removed from Favorites";
+
+//Раздел дополнительных пояснений
+"explanation_return" = "Return";
+"explanation_add_info" = "Additional information";
+
+//NCJokesViewController
+"send_joke_body" = "Send us your joke in Chinese with an English translation.\nPlease, write the subject of the letter and don't forget to tell us your name.\nThe best jokes will be published with the name of the author.";
+
+//NCFeedbackViewController
+"feedback_body" = "Send us your feedback, bugs and mistakes report or cooperation offer. Please, remember to write the subject of the letter.";
+
+//Share
+// Only original materials that are impossible to find anywhere else
+"share_twitter_text" = "Check out the new iOS app that will teach you the REAL Chinese. http://goo.gl/E0SvQL";
+"share_text" = "Check out the new iOS app that will teach you the REAL Chinese. Only original materials that are impossible to find anywhere else.http://goo.gl/E0SvQL";
+"share_link" = "http://itunes.apple.com/app/id959547959";
+"share_completed_success" = "WELL DONE!";
+"share_completed_unsuccess" = "SOMETHING WENT WRONG...";
+
+//Internet connection
+"internet_no_connection" = "No Internet connection!";
+"products_failed_load_list" = "Failed to load information about product";
+"product_restored" = "Purchases restored!";
+"product_restored_fail" = "Purchases can not be restored!";
+

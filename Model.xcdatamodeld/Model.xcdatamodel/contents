@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6254" systemVersion="13F34" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Explanation" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="word_id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Explanations" inverseName="containExplanations" inverseEntity="Explanations" syncable="YES"/>
+    </entity>
+    <entity name="Explanations" syncable="YES">
+        <relationship name="containExplanations" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Explanation" inverseName="relationship" inverseEntity="Explanation" syncable="YES"/>
+    </entity>
+    <entity name="Favorite" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Favorites" inverseName="containFavorites" inverseEntity="Favorites" syncable="YES"/>
+    </entity>
+    <entity name="Favorites" syncable="YES">
+        <relationship name="containFavorites" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Favorite" inverseName="relationship" inverseEntity="Favorite" syncable="YES"/>
+    </entity>
+    <entity name="Material" syncable="YES">
+        <attribute name="en" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="ru" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sound" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="zh" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="zh_tr" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Materials" inverseName="containMaterials" inverseEntity="Materials" syncable="YES"/>
+    </entity>
+    <entity name="Materials" syncable="YES">
+        <relationship name="containMaterials" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Material" inverseName="relationship" inverseEntity="Material" syncable="YES"/>
+    </entity>
+    <entity name="Pack" syncable="YES">
+        <attribute name="downloaded" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="paid" optional="YES" attributeType="Integer 16" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="partition" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Packs" inverseName="containPacks" inverseEntity="Packs" syncable="YES"/>
+    </entity>
+    <entity name="Packs" syncable="YES">
+        <relationship name="containPacks" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Pack" inverseName="relationship" inverseEntity="Pack" syncable="YES"/>
+    </entity>
+    <entity name="Word" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageBig" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pack_id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="paid" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="show" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Words" inverseName="containWords" inverseEntity="Words" syncable="YES"/>
+    </entity>
+    <entity name="Words" syncable="YES">
+        <relationship name="containWords" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Word" inverseName="relationship" inverseEntity="Word" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Explanation" positionX="-27" positionY="90" width="128" height="88"/>
+        <element name="Explanations" positionX="-18" positionY="99" width="128" height="58"/>
+        <element name="Favorite" positionX="-9" positionY="108" width="128" height="73"/>
+        <element name="Favorites" positionX="-18" positionY="99" width="128" height="58"/>
+        <element name="Material" positionX="-18" positionY="72" width="128" height="148"/>
+        <element name="Materials" positionX="0" positionY="81" width="128" height="58"/>
+        <element name="Pack" positionX="-63" positionY="-18" width="128" height="120"/>
+        <element name="Packs" positionX="-27" positionY="90" width="128" height="58"/>
+        <element name="Word" positionX="-54" positionY="9" width="128" height="150"/>
+        <element name="Words" positionX="-36" positionY="54" width="128" height="58"/>
+    </elements>
+</model>
