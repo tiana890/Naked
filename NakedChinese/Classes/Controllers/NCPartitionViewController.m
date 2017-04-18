@@ -111,17 +111,20 @@ static NSString *const NCAppDelegateKey = @"fromDelegate";
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     
-    [self hideBarLine];
-    [self disableBlurViews];
+    if ([self.backgroundBlurView isHidden]) {
+        [self hideBarLine];
+        [self disableBlurViews];
+    }
     
     //self.currentPartition = @[@"sex", @"swear", @"slang"];
-    
+    /*
     NCAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
     appDelegate.delegate = self;
     
     self.dataManager = [NCDataManager sharedInstance];
     self.dataManager.delegate = self;
     [self.dataManager getLocalPacks];
+     */
 }
 
 - (void)appDelegateHandleURLProtocolOpenJokeItemWithNumber:(int)number

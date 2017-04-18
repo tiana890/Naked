@@ -36,6 +36,7 @@
 - (void)setup {
     [self safeLineView];
     
+    [self setClipsToBounds:YES];
     UIImage *clearImage = [[UIImage alloc] init];
     [self setBackgroundImage:clearImage forToolbarPosition:[self barPosition] barMetrics:UIBarMetricsDefault];
     [self setBackgroundColor:[UIColor clearColor]];
