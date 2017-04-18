@@ -49,7 +49,7 @@ static NSString *const NCPressKey = @"fromPress";
 static NSString *const NCAppDelegateKey = @"fromDelegate";
 #pragma mark -
 
-@interface NCPartitionViewController () <UIToolbarDelegate, UICollectionViewDataSource, UICollectionViewDelegate, UITabBarDelegate, UINavigationControllerDelegate, NCInteractionViewDelegate, NCDataManagerProtocol, AppDelegateHandleURLProtocol>
+@interface NCPartitionViewController () <UIToolbarDelegate, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout,UITabBarDelegate, UINavigationControllerDelegate, NCInteractionViewDelegate, NCDataManagerProtocol, AppDelegateHandleURLProtocol>
 
 @property (weak, nonatomic) IBOutlet FXBlurView *backgroundBlurView;
 
@@ -104,8 +104,8 @@ static NSString *const NCAppDelegateKey = @"fromDelegate";
     [self.navigationItem setHidesBackButton:YES];
     
     self.tabBar.delegate = self;
-    
     self.partitionSegmentedControl.selectedSegmentIndex = UISegmentedControlNoSegment;
+    
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -327,6 +327,12 @@ static NSString *const NCAppDelegateKey = @"fromDelegate";
     packCell.packView.packNumber = indexPath.row+1;
 
     return packCell;
+}
+
+#pragma mark - UICollection
+
+-(CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath {
+    return CGSizeMake(100.0f, 100.0f);
 }
 
 #pragma mark - UICollectionViewDelegate

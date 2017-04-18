@@ -50,7 +50,7 @@ static NSString *const NCWordLockCellIdentifier = @"wordLockCell";
 const CGFloat KeyboardHeight = 216.f;
 const NSTimeInterval SearchCollectionViewAnimationDuration = 0.3;
 
-@interface NCPackViewController () <UICollectionViewDataSource, UICollectionViewDelegate, UIToolbarDelegate, UIGestureRecognizerDelegate, UISearchBarDelegate, NCDataManagerProtocol, UIAlertViewDelegate, NCProductDownloaderProtocol>
+@interface NCPackViewController () <UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout, UIToolbarDelegate, UIGestureRecognizerDelegate, UISearchBarDelegate, NCDataManagerProtocol, UIAlertViewDelegate, NCProductDownloaderProtocol>
 
 @property (weak, nonatomic) IBOutlet FXBlurView *navigationBlurView;
 @property (weak, nonatomic) IBOutlet FXBlurView *searchBlurView;
@@ -486,6 +486,13 @@ const NSTimeInterval SearchCollectionViewAnimationDuration = 0.3;
     return nil;
 }
 
+#pragma marl - UICollectionViewFlowLayoutDelegate
+
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath{
+    CGSize screenSize = [[UIScreen mainScreen] bounds].size;
+    CGFloat height = (screenSize.width == 375.0f) ? 160.0f : ((screenSize.width == 414.0) ? 175.0f : 138.0f);
+    return CGSizeMake(height, height);
+}
 
 #pragma mark - UICollectionViewDelegate
 
