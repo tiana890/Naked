@@ -36,7 +36,9 @@
 - (void)setup {
     [self safeLineView];
     
-    [self setBackgroundImage:[UIImage new] forToolbarPosition:[self barPosition] barMetrics:UIBarMetricsDefault];
+    UIImage *clearImage = [[UIImage alloc] init];
+    [self setBackgroundImage:clearImage forToolbarPosition:[self barPosition] barMetrics:UIBarMetricsDefault];
+    [self setBackgroundColor:[UIColor clearColor]];
 }
 
 - (void)safeLineView {
